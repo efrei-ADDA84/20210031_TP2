@@ -3,4 +3,4 @@ WORKDIR /app
 COPY requirements.txt /app
 RUN pip install -r requirements.txt
 COPY . .
-CMD [ "python", "weatherAPI.py", "--port", "8081" ]
+CMD [ "python", "weatherAPI.py"]
